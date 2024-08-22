@@ -1,0 +1,18 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{Palabras Clave}{1}{}%
+\contentsline {chapter}{Objetivo}{3}{}%
+\contentsline {chapter}{\numberline {1}Contenido}{4}{}%
+\contentsline {section}{\numberline {1.1}Arquitectura de un Sistema Embebido}{4}{}%
+\contentsline {section}{\numberline {1.2}Tipos de Arquitectura}{4}{}%
+\contentsline {subsection}{\numberline {1.2.1}RISC}{4}{}%
+\contentsline {subsubsection}{Pipeline}{5}{}%
+\contentsline {subsubsection}{Caracter^^c3^^adsticas}{5}{}%
+\contentsline {subsection}{\numberline {1.2.2}CISC}{5}{}%
+\contentsline {subsubsection}{Caracter^^c3^^adsticas}{6}{}%
+\contentsline {subsection}{\numberline {1.2.3}Von Neumann}{6}{}%
+\contentsline {subsubsection}{Caracter^^c3^^adsticas}{7}{}%
+\contentsline {subsection}{\numberline {1.2.4}Harvard}{7}{}%
+\contentsline {subsubsection}{Caracter^^c3^^adsticas}{7}{}%
+\contentsline {section}{\numberline {1.3}^^c2^^bfD^^c3^^b3nde se utilizan?}{8}{}%
+\contentsline {chapter}{\numberline {2}Conclusiones}{9}{}%
+\contentsline {chapter}{Bibliograf^^c3^^ada}{10}{}%
