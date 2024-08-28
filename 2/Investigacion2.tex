@@ -1,0 +1,153 @@
+\documentclass[12pt]{report}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{times}
+\usepackage{mathptmx} % Use mathptmx instead of times
+\usepackage{fancyhdr}
+\usepackage{url}
+
+
+
+% Configuración de márgenes
+\geometry{
+    top=2.5cm,
+    left=3cm,
+    right=3cm,
+    bottom=2.5cm
+}
+
+% Configuración de interlineado
+\onehalfspacing
+
+% Configuración de títulos y subtítulos
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries\centering}{}{0pt}{\fontsize{14}{16}\selectfont}
+\titleformat{\section}
+  {\normalfont\bfseries}{\thesection}{1em}{\fontsize{12}{14}\selectfont}
+\titleformat{\subsection}
+  {\normalfont\bfseries}{\thesubsection}{1em}{\fontsize{12}{14}\selectfont}
+
+
+% Configuración de pie de página
+  \fancyhf{}
+\fancyfoot[R]{\thepage}
+\pagestyle{fancy}
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[R]{\thepage}
+}
+
+  \begin{document}
+  \pagenumbering{roman}
+%----- PORTADA ----
+\setlength{\hoffset}{27 pt} % 1 (Para centrar más la portada)
+\begin{titlepage}
+{\centering
+{\fontfamily{ptm}\scshape\bfseries\fontsize{29.16}{34.992}\selectfont Universidad de Guadalajara \par}
+\vspace{0.5cm}
+{\scshape\Large Centro Universitario de los Lagos \par}
+\vspace{1cm}
+{\scshape\Large División de Estudios de la Biodiversidad e innovación Tecnológica \par}
+\vspace{1cm}
+{\graphicspath{{imagenes/Portada}} %ruta de las imagenes
+\includegraphics[width=0.3\textwidth]{image.png}\par}
+\vspace{1cm}
+% Título
+{\scshape\large\bfseries Investigación 2: Clasificación de los Sistemas Embebidos\par}
+\vspace{1.5cm}
+% Materia
+{\large \textbf{Asignatura:} \\Sistemas Embebidos\par}
+\vfill
+% Estudiante
+{\large \textbf{Presenta:} \\Oscar Iván Moreno Gutiérrez \#220942754\par}
+\vfill
+% Profesor
+{\large \textbf{Profesor:} \\Dr. Afanador Delgado Samuel Mardoqueo \par}
+\vfill
+\vfill
+% Fecha
+\begin{flushright}
+  {\normalsize \textbf {Fecha:} \\ \today}
+\end{flushright}
+\vfill}
+{\large  \par}
+\end{titlepage}
+%----- FIN DE PORTADA ----
+
+%----- ÍNDICE GENERAL ----
+\tableofcontents
+\newpage
+
+%----- PALABRAS CLAVE ----
+\pagenumbering{arabic}
+\chapter*{Palabras Clave}
+\addcontentsline{toc}{chapter}{Palabras Clave}
+Sistemas Embebidos, Clasificación, Hardware, Software, Firmware, Requisitos Funcionales, Prestaciones, Pequeña Escala, Mediana Escala, Escala Sofisticada.
+\newpage
+
+%----- OBJETIVO ----
+\chapter*{Objetivo}
+\addcontentsline{toc}{chapter}{Objetivo}
+Investigare sobre las diferentes clasificaciones de los sistemas embebidos. La importancia de conocer las diferencias es para poder escoger que sistema embebido es el más adecuado para el proyecto que se desea realizar.
+\newpage
+
+%----- CONTENIDO ----
+\chapter{Contenido}
+\section{¿Qué es un sistema embebido?}
+Los sistemas embebidos son pequeños ordenadores integrados en dispositivos completos, diseñados para tareas específicas. Incluyen procesador, memoria, fuente de alimentación y puertos de comunicación para interactuar con periféricos. Utilizan software minimalista para interpretar datos. Los procesadores pueden ser microprocesadores o microcontroladores, siendo estos últimos más integrados. Los sistemas en un chip (SoC) combinan múltiples componentes en un solo chip y se usan en aplicaciones de gran volumen. Los sistemas embebidos a menudo operan en tiempo real con sistemas operativos específicos como RTOS, versiones reducidas de Linux, Embedded Java y Windows IoT.\cite{1}
+
+\section{Estructura de los sistemas embebidos}
+Los sistemas embebidos varían en complejidad y están compuestos generalmente por:
+\begin{itemize}
+  \item Hardware: Procesador, memoria, puertos de comunicación, periféricos.
+    \begin{itemize}
+      \item Procesador: Microprocesador, microcontrolador, SoC.
+      \item Memoria: RAM, ROM, Flash.
+      \item Periféricos: Puertos de comunicación, sensores, actuadores.
+      \item Puertos de comunicación: UART, SPI, I2C, USB, Ethernet.
+    \end{itemize}
+  \item Software y Firmware: Sistema operativo, aplicaciones, drivers.
+  \item Sistema Operativo en tiempo real: RTOS, Linux, Windows IoT.
+  \end{itemize}
+
+\section{Tipos de Sistemas Embebidos}
+Los sistemas embebidos se pueden clasificar de acuerdo a sus requisitos funcionales:
+\begin{itemize}
+  \item Móviles: Procesador de un Smartphone. Como los Snapdragon de Qualcomm o Apple A-Series.
+  \item Red: Routers y switches de red. Estos dispositivos utilizan sistemas embebidos para gestionar el tráfico de datos, implementar protocolos de red y asegurar la comunicación eficiente entre dispositivos conectados.
+  \item Autónomos: Sistemas embebidos en automóviles, drones, robots y otros dispositivos autónomos. Estos sistemas embebidos deben ser capaces de tomar decisiones en tiempo real y ejecutar tareas complejas sin intervención humana.
+  \item En tiempo real: Sistemas embebidos en sistemas de control industrial, sistemas de seguridad y sistemas de comunicación. Estos sistemas embebidos deben ser capaces de responder a eventos en tiempo real y ejecutar tareas críticas en un plazo determinado.
+\end{itemize}
+
+También se pueden clasificar de acuerdo a sus prestaciones:
+\begin{itemize}
+  \item Pequeña escala: no suelen utilizar más de un microcontrolador de 8 bits.
+  \item Mediana escala: utilizan microcontroladores de mayor tamaño (16-32 bits) y a menudo se conectan entre sí.
+  \item Escala sofisticada: a menudo usan varios algoritmos, lo que conlleva complejidades de software y hardware y puede requerir un software más complejo, un procesador configurable y/o una matriz lógica programable.
+\end{itemize}
+\newpage
+
+%----- CONCLUSIONES ----
+
+\chapter{Conclusiones}
+En conclusión, la investigación sobre las diferentes clasificaciones de los sistemas embebidos nos ha permitido comprender la importancia de conocer las diferencias entre ellos. Esto nos ayuda a seleccionar el sistema embebido más adecuado para un proyecto específico.
+
+Hemos aprendido que los sistemas embebidos son pequeños ordenadores integrados en dispositivos completos, diseñados para tareas específicas. Pueden variar en complejidad y están compuestos por hardware, software y firmware. El hardware incluye procesadores, memoria, puertos de comunicación y periféricos. El software y firmware incluyen el sistema operativo, aplicaciones y drivers. Además, los sistemas embebidos pueden clasificarse según sus requisitos funcionales, como móviles, de red, autónomos y en tiempo real.
+
+También hemos aprendido que los sistemas embebidos pueden clasificarse según sus prestaciones, como pequeña escala, mediana escala y escala sofisticada. Cada tipo de sistema embebido tiene sus propias características y requisitos, y es importante considerarlos al seleccionar el sistema adecuado para un proyecto.
+
+En resumen, la investigación nos ha brindado una visión general de los sistemas embebidos y nos ha ayudado a comprender su importancia y clasificaciones. Esto nos permitirá tomar decisiones informadas al trabajar con sistemas embebidos en el futuro.
+
+
+%----- REFERENCIAS ----
+\addcontentsline{toc}{chapter}{Bibliografía}
+\begin{thebibliography}{1}
+\bibitem{1} Bismarks, J. L. (2023, junio 27). Sistema Embebido. Electrónica Online. \url{https://electronicaonline.net/electronica/sistemas-embebidos/}
+
+\end{thebibliography}
+
+\end{document}
