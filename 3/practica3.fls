@@ -62,6 +62,9 @@ INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ps
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+INPUT ./practica3.aux
+INPUT ./practica3.aux
+INPUT practica3.aux
 OUTPUT practica3.aux
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 INPUT /Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
@@ -75,16 +78,19 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/p
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmbc7t.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmbc7t.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmrc7t.tfm
-INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ot1pcr.fd
-INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ot1pcr.fd
-INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ot1pcr.fd
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/courier/pcrr7t.tfm
+INPUT ./image.png
+INPUT ./image.png
+INPUT ./image.png
+INPUT ./image.png
+OUTPUT practica3.pdf
+INPUT ./image.png
+INPUT ./image.png
+INPUT ./image.png
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmrc7t.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmbc7t.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb7t.tfm
-OUTPUT practica3.pdf
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmbc7t.vf
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
@@ -92,8 +98,6 @@ INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdfte
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmrc7t.vf
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/courier/pcrr7t.vf
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/courier/pcrr8r.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmbc7t.vf
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
@@ -105,6 +109,38 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/p
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT ./practica3.toc
+INPUT ./practica3.toc
+INPUT practica3.toc
+INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ot1ztmcm.fd
+INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ot1ztmcm.fd
+INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ot1ztmcm.fd
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/zptmcm7t.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/zptmcm7t.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/zptmcm7t.tfm
+INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/omlztmcm.fd
+INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/omlztmcm.fd
+INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/omlztmcm.fd
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/zptmcm7m.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/zptmcm7m.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/zptmcm7m.tfm
+INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/omsztmcm.fd
+INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/omsztmcm.fd
+INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/omsztmcm.fd
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/zptmcm7y.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/zptmcm7y.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/zptmcm7y.tfm
+INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/omxztmcm.fd
+INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/omxztmcm.fd
+INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/omxztmcm.fd
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/zptmcm7v.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/zptmcm7v.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/zptmcm7v.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb7t.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmri7t.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmri7t.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmri7t.tfm
 OUTPUT practica3.toc
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
@@ -112,8 +148,6 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/pt
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT practica3.aux
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/courier/ucrr8a.pfb
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/courier/ucrr8a.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmb8a.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmb8a.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmr8a.pfb

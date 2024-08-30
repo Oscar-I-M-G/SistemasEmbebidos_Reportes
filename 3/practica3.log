@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.4.19)  29 AUG 2024 19:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2024.4.19)  29 AUG 2024 20:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -167,8 +167,10 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count269
 \l__pdf_internal_box=\box52
+) (practica3.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
 )
-No file practica3.aux.
 \openout1 = `practica3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
@@ -185,7 +187,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
 LaTeX Font Info:    ... okay on input line 43.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
 LaTeX Font Info:    ... okay on input line 43.
-(/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+ (/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count270
 \scratchdimen=\dimen157
@@ -242,32 +244,43 @@ LaTeX Info: Redefining \% on input line 43.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \big@size=\dimen159
+<image.png, id=1, 95.35625pt x 127.47626pt>
+File: image.png Graphic file (type png)
+<use image.png>
+Package pdftex.def Info: image.png  used on input line 56.
+(pdftex.def)             Requested size: 133.07489pt x 177.92284pt.
+[1
 
-LaTeX Warning: File `image.png' not found on input line 56.
-
-
-/Users/oimg/Documents/SistemasEmbebidos_Reportes/3/practica3.tex:56: Package pdftex.def Error: File `image.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56 ...degraphics[width=0.3\textwidth]{image.png}
-                                                  \par}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 56.
-(/Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [1
-
-{/Users/oimg/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}]
-No file practica3.toc.
+{/Users/oimg/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map} <./image.png>] (practica3.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 5.
+ (/Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 5.
+ (/Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 5.
+ (/Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 5.
+ (/Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
+)
 \tf@toc=\write3
 \openout3 = `practica3.toc'.
 
-[1
+ [1
 
 ] [1
 
@@ -275,9 +288,6 @@ No file practica3.toc.
 
 ]
 Cap\'{\i }tulo 1.
-
-LaTeX Warning: Citation `1' on page 3 undefined on input line 100.
-
 [3
 
 ]
@@ -294,26 +304,19 @@ LaTeX Info: Redefining \% on input line 8.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 4068 strings out of 476358
- 67755 string characters out of 5792223
- 1928493 words of memory out of 5000000
- 26142 multiletter control sequences out of 15000+600000
- 577400 words of font info for 61 fonts, out of 8000000 for 9000
+ 4075 strings out of 476358
+ 68368 string characters out of 5792223
+ 1929493 words of memory out of 5000000
+ 26133 multiletter control sequences out of 15000+600000
+ 584496 words of font info for 76 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 57i,11n,65p,264b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc}</Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/courier/ucrr8a.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmb8a.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmr8a.pfb>
-Output written on practica3.pdf (7 pages, 46991 bytes).
+ 57i,11n,65p,264b,386s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc}</Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmb8a.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmr8a.pfb>
+Output written on practica3.pdf (7 pages, 57704 bytes).
 PDF statistics:
- 42 PDF objects out of 1000 (max. 8388607)
+ 40 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
