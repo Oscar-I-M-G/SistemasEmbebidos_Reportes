@@ -56,6 +56,8 @@ INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/ps
 INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/mathptmx.sty
 INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
 INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
+INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/float/float.sty
+INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/float/float.sty
 INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ot1ptm.fd
 INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ot1ptm.fd
 INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ot1ptm.fd
@@ -108,6 +110,8 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/pt
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmrc7t.vf
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT ./practica3.toc
 INPUT ./practica3.toc
@@ -144,10 +148,86 @@ INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/p
 OUTPUT practica3.toc
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/times/ptmrc7t.vf
-INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT ./Screenshots/piOS.png
+INPUT ./Screenshots/piOS.png
+INPUT ./Screenshots/piOS.png
+INPUT ./Screenshots/piOS.png
+INPUT ./Screenshots/piOS.png
+INPUT ./Screenshots/piOS.png
+INPUT ./Screenshots/piOS.png
+INPUT ./Screenshots/raspberryPi.JPG
+INPUT ./Screenshots/raspberryPi.JPG
+INPUT ./Screenshots/raspberryPi.JPG
+INPUT ./Screenshots/raspberryPi.JPG
+INPUT ./Screenshots/raspberryPi.JPG
+INPUT ./Screenshots/raspberryPi.JPG
+INPUT ./Screenshots/raspberryPi.JPG
+INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ot1pcr.fd
+INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ot1pcr.fd
+INPUT /Users/oimg/Library/Application Support/MiKTeX/texmfs/install/tex/latex/psnfss/ot1pcr.fd
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/courier/pcrr7t.tfm
+INPUT ./Screenshots/ssh.png
+INPUT ./Screenshots/ssh.png
+INPUT ./Screenshots/ssh.png
+INPUT ./Screenshots/ssh.png
+INPUT ./Screenshots/ssh.png
+INPUT ./Screenshots/ssh.png
+INPUT ./Screenshots/ssh.png
+INPUT ./Screenshots/ls.png
+INPUT ./Screenshots/ls.png
+INPUT ./Screenshots/ls.png
+INPUT ./Screenshots/ls.png
+INPUT ./Screenshots/ls.png
+INPUT ./Screenshots/ls.png
+INPUT ./Screenshots/ls.png
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/vf/adobe/courier/pcrr7t.vf
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/adobe/courier/pcrr8r.tfm
+INPUT ./Screenshots/pwd.png
+INPUT ./Screenshots/pwd.png
+INPUT ./Screenshots/pwd.png
+INPUT ./Screenshots/pwd.png
+INPUT ./Screenshots/pwd.png
+INPUT ./Screenshots/pwd.png
+INPUT ./Screenshots/pwd.png
+INPUT ./Screenshots/cd.png
+INPUT ./Screenshots/cd.png
+INPUT ./Screenshots/cd.png
+INPUT ./Screenshots/cd.png
+INPUT ./Screenshots/cd.png
+INPUT ./Screenshots/cd.png
+INPUT ./Screenshots/cd.png
+INPUT ./Screenshots/apagando.png
+INPUT ./Screenshots/apagando.png
+INPUT ./Screenshots/apagando.png
+INPUT ./Screenshots/apagando.png
+INPUT ./Screenshots/apagando.png
+INPUT ./Screenshots/apagando.png
+INPUT ./Screenshots/apagando.png
+INPUT ./Screenshots/contenidoRaiz.png
+INPUT ./Screenshots/contenidoRaiz.png
+INPUT ./Screenshots/contenidoRaiz.png
+INPUT ./Screenshots/contenidoRaiz.png
+INPUT ./Screenshots/contenidoRaiz.png
+INPUT ./Screenshots/contenidoRaiz.png
+INPUT ./Screenshots/contenidoRaiz.png
+INPUT ./Screenshots/rutaRaiz.png
+INPUT ./Screenshots/rutaRaiz.png
+INPUT ./Screenshots/rutaRaiz.png
+INPUT ./Screenshots/rutaRaiz.png
+INPUT ./Screenshots/rutaRaiz.png
+INPUT ./Screenshots/rutaRaiz.png
+INPUT ./Screenshots/rutaRaiz.png
+INPUT ./Screenshots/regrsoHome.png
+INPUT ./Screenshots/regrsoHome.png
+INPUT ./Screenshots/regrsoHome.png
+INPUT ./Screenshots/regrsoHome.png
+INPUT ./Screenshots/regrsoHome.png
+INPUT ./Screenshots/regrsoHome.png
+INPUT ./Screenshots/regrsoHome.png
 INPUT practica3.aux
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/enc/dvips/base/8r.enc
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/courier/ucrr8a.pfb
+INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/courier/ucrr8a.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmb8a.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmb8a.pfb
 INPUT /Library/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmr8a.pfb
