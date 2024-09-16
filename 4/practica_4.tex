@@ -1,0 +1,133 @@
+\documentclass[12pt]{report}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{setspace}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{times}
+\usepackage{mathptmx} % Use mathptmx instead of times
+\usepackage{fancyhdr}
+\usepackage{float}
+
+
+
+% Configuración de márgenes
+\geometry{
+    top=2.5cm,
+    left=3cm,
+    right=3cm,
+    bottom=2.5cm
+}
+
+% Configuración de interlineado
+\onehalfspacing
+
+% Configuración de títulos y subtítulos
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries\centering}{}{0pt}{\fontsize{14}{16}\selectfont}
+\titleformat{\section}
+  {\normalfont\bfseries}{\thesection}{1em}{\fontsize{12}{14}\selectfont}
+\titleformat{\subsection}
+  {\normalfont\bfseries}{\thesubsection}{1em}{\fontsize{12}{14}\selectfont}
+
+
+% Configuración de pie de página
+  \fancyhf{}
+\fancyfoot[R]{\thepage}
+\pagestyle{fancy}
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[R]{\thepage}
+}
+
+  \begin{document}
+  \pagenumbering{roman}
+%----- PORTADA ----
+\setlength{\hoffset}{27 pt} % 1 (Para centrar más la portada)
+\begin{titlepage}
+{\centering
+{\fontfamily{ptm}\scshape\bfseries\fontsize{29.16}{34.992}\selectfont Universidad de Guadalajara \par}
+\vspace{0.5cm}
+{\scshape\Large Centro Universitario de los Lagos \par}
+\vspace{1cm}
+{\scshape\Large División de Estudios de la Biodiversidad e innovación Tecnológica \par}
+\vspace{1cm}
+{\graphicspath{{imagenes/Portada}} %ruta de las imagenes
+\includegraphics[width=0.3\textwidth]{image.png}\par}
+\vspace{1cm}
+% Título
+{\scshape\large\bfseries Practica 4 \par}
+\vspace{0.5cm}
+% Materia
+{\large \textbf{Asignatura:} \\Sistemas Embebidos\par}
+\vfill
+% Estudiante
+{\large \textbf{Presenta:} \\Oscar Iván Moreno Gutiérrez \#220942754
+\\Arnold Jonathan Bradley Mercado Plascencia \#220942835
+\\Alejandro Orozco Ramirez \#217490257  \par}
+\vfill
+% Profesor
+{\large \textbf{Profesor:} \\Dr. Afanador Delgado Samuel Mardoqueo \par}
+\vfill
+\vfill
+% Fecha
+\begin{flushright}
+  {\normalsize \textbf {Fecha:} \\ \today}
+\end{flushright}
+\vfill}
+{\large  \par}
+\end{titlepage}
+%----- FIN DE PORTADA ----
+
+%----- ÍNDICE GENERAL ----
+\tableofcontents
+\newpage
+
+%----- PALABRAS CLAVE ----
+\pagenumbering{arabic}
+\chapter*{Palabras Clave}
+\addcontentsline{toc}{chapter}{Palabras Clave}
+Aquí van las palabras clave de tu documento.
+\newpage
+
+%----- OBJETIVO ----
+\chapter*{Objetivo}
+\addcontentsline{toc}{chapter}{Objetivo}
+Identificar los formatos de los comandos del SO Linux en un hardware embebido
+Raspberry Pi.
+\begin{figure}[H]
+
+  \centering
+  \includegraphics[width=0.5\textwidth]{screenshots/piOS.png}
+  \caption{Distribución de Linux en Raspberry Pi.}
+  \label{fig:piOS}
+\end{figure}
+Pi OS es una distribución de Linux basada en Debian, diseñada para Raspberry Pi. Es un sistema operativo de código abierto que se puede descargar e instalar de forma gratuita.
+Los comandos son instrucciones que se utilizan para realizar tareas específicas en un sistema operativo. En Linux, los comandos se pueden ejecutar desde la terminal. La terminal es una interfaz de línea de comandos que permite a los usuarios interactuar con el sistema operativo utilizando comandos de texto.
+\newpage
+
+%----- CONTENIDO ----
+\chapter{Contenido}
+\section{Material}
+Contenido de la sección 1. \cite{1}
+
+\subsection{Subsección 1.1}
+Contenido de la subsección 1.1.
+
+\section{Sección 2}
+Contenido de la sección 2.
+\newpage
+
+%----- CONCLUSIONES ----
+\chapter{Conclusiones}
+Aquí van las conclusiones de tu documento.
+\newpage
+
+%----- REFERENCIAS ----
+\addcontentsline{toc}{chapter}{Bibliografía}
+\begin{thebibliography}{1}
+\bibitem{1} Autor, A. (2021). Título del libro. Editorial.
+\end{thebibliography}
+
+\end{document}
